@@ -1,0 +1,171 @@
+/* Estilos para el encabezado */
+header {
+    width: 478px;
+    height: 1024px;
+    flex-shrink: 0;
+    background-color: #FFF6EA;
+    position: relative; /* Permite utilizar valores top, left, etc. en elementos hijos */
+}
+
+/* Estilos para la imagen del estudiante */
+.fotoestudiante {
+    width: 361px;
+    height: 342px;
+    flex-shrink: 0;
+    border-radius: 361px;
+    border: 5px solid #E8C39E;
+}
+
+/* Estilos para el texto de color */
+p {
+    color: azure;
+}
+
+/* Estilos para la imagen de fondo */
+img {
+    width: 478px;
+    height: 1024px;
+    flex-shrink: 0;
+    background: #d6b181;
+    left: 45px;
+}
+
+/* Estilos para el nombre */
+.nombre {
+    width: 801px;
+    height: 123px;
+    margin-top: -350px; /* Desplaza hacia arriba */
+    margin-bottom: -350px; /* Desplaza hacia arriba */
+    text-align: end; /* Alinea el texto a la derecha */
+    padding-left: 350px; /* Agrega espacio a la izquierda */
+    font-size: 50px;
+    position: relative;
+    top: -20px; /* Desplaza hacia arriba */
+    padding-top: 30px; /* Agrega espacio en la parte superior */
+    font-style: oblique;
+}
+
+/* Estilos para la sección de datos */
+.datos {
+    width: 375px;
+    height: 45px;
+    align-items: center; /* Centra verticalmente */
+    margin-top: 600px; /* Desplaza hacia abajo */
+    margin-bottom: 600px; /* Desplaza hacia abajo */
+    padding-left: 100px; /* Agrega espacio a la izquierda */
+    background-color: burlywood;
+}
+
+/* Estilos para la sección de estudiante */
+.estudiante {
+    width: 900px;
+    height: 123px;
+    margin-top: -900px; /* Desplaza hacia arriba */
+    margin-bottom: -900px; /* Desplaza hacia arriba */
+    text-align: center; /* Alinea el texto al centro */
+    padding-left: 385px; /* Agrega espacio a la izquierda */
+    background-color: rgba(232, 195, 158, 1);
+    width: 900px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+/* Estilos para la sección de educación */
+.educacion {
+    width: 375px;
+    height: 45px;
+    margin-top: -1150px; /* Desplaza hacia arriba */
+    margin-bottom: -1150px; /* Desplaza hacia arriba */
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding-left: 100px; /* Agrega espacio a la izquierda */
+    background-color: burlywood;
+}
+
+/* Estilos para la sección de educación y formación */
+.educacionyformacion {
+    width: 801px;
+    height: 123px;
+    margin-top: 1150px; /* Desplaza hacia abajo */
+    margin-bottom: 1100px; /* Desplaza hacia abajo */
+    align-items: left;
+    text-align: left;
+    display: block;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: pre-line; /* Muestra saltos de línea */
+    
+}
+
+
+/* Estilos para la sección de datos personales */
+.datospersonales {
+    width: 450px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 25px;
+    margin-top: 1150px; /* Desplaza hacia abajo */
+    margin-bottom: 1150px; /* Desplaza hacia abajo */
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hab{
+    text-align: center;
+    margin-top: -1690px; 
+    background: rgba(248, 224, 200, 1);
+    width: 190px;
+    margin-left: 750px;
+    background-size:contain; /* Ajusta el tamaño de fondo para que se ajuste al contenido. */
+    padding:6px;
+
+  }
+
+.Habilidades{
+    width: 801px;
+    height: 123px;
+    margin-top: 50px; /* Desplaza hacia abajo */
+    margin-bottom: 100px; /* Desplaza hacia abajo */
+    padding-left: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.exp{
+    text-align: center;
+    margin-top: 50px; 
+    background: rgba(248, 224, 200, 1);
+    width: 190px;
+    margin-left: 750px;
+    background-size:contain; /* Ajusta el tamaño de fondo para que se ajuste al contenido. */
+    padding:6px;
+
+}
+.Experiencia{
+    width: 801px;
+    height: 123px;
+    margin-top: 50px; /* Desplaza hacia abajo */
+    margin-bottom: 100px; /* Desplaza hacia abajo */
+    padding-left: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hob{
+    text-align: center;
+    margin-top: -125px; 
+    background: rgba(248, 224, 200, 1);
+    width: 190px;
+    margin-left: 750px;
+    background-size:contain; /* Ajusta el tamaño de fondo para que se ajuste al contenido. */
+    padding:6px;
+}
+.Hobbies{
+    width: 801px;
+    height: 123px;
+    margin-top: 50px; /* Desplaza hacia abajo */
+    margin-bottom: 100px; /* Desplaza hacia abajo */
+    padding-left: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+
+

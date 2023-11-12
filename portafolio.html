@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="mobile-devices-2017980_1280.png" sizes="32x32" type="image/png">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Jessica Andrea Torres</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="https://jessit.neocities.org/" target="_blank">Neocities</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://github.com/Jessica-1804" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:jatorresu@correo.iue.edu.co"> <i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Estudiante de ingeniería informática</h2>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="Foto.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Retos</h3>
+                    <p>
+                        <ul>
+                            <a href="hojadevida.html" target="_blank"><li>Hoja de vida</li></a>
+                            <a href="reto.html" target="_blank"><li>Landing Page</li></a>
+                            <a href="bingo.html" target="_blank"><li>Bingo</li></a>
+                            <a href="sopaletra.html" target="_blank"><li>Sopa Letras</li></a>
+                            <a href="imc.html" target="_blank"><li>IMC</li></a>
+                        </ul>
+                    </p>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño</h3>
+                    <p>
+                        <ul>
+                            <a href="https://www.figma.com/file/ycqAceizlS4J9enTe0NCmm/DeportesExtremos?type=design&node-id=2%3A42&mode=design&t=jHylG8ZEMhso3tes-1" target="_blank"><li>Deportes Extremos</li></a>
+                            <a href="https://www.figma.com/file/ycqAceizlS4J9enTe0NCmm/DeportesExtremos?type=design&node-id=2%3A42&mode=design&t=N59vx7neOYIzZpQY-1" target="_blank" ><li>Hoja de vida</li></a>
+                            <a href="https://www.figma.com/file/sK2yGCQ4dzflvqXxUD1cMt/Hotel-Mascotas?type=design&node-id=0%3A1&mode=design&t=xVOn1LasBYSursJG-1" target="_blank"><li>Hotel Mascotas</li></a>
+                            <li>Diseño 4</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Consultas</h3>
+                    <p>
+                        <ol>
+                            <a href="consulta.html" target="_blank"><li>Protocolos</li></a>
+                            <a href="dom.html" target="_blank"><li>Modelo DOM</li></a>
+                            <a href="landing.html" target="_blank"><li>Landing Page</li></a>
+                            <li>Consulta 4</li>
+                        </ol>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Proyecto</h3>
+
+                    <a href="#">Proyecto</a>
+                </div>
+            </div>
+             <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                    </div>
+                    <h3>Talleres</h3>
+                    <p><ol>
+                        <a href="tabla.html" target="_blank"><li>Tablas</li></a>
+                        <a href="DiseñoResponsivo.html" target="_blank"><li>Diseño responsivo</li></a>
+                        <a href="Java.html" target="_blank"><li>Ejercicio javascript 1</li></a>
+                        <a href="javascript.html" target="_blank"><li>Ejercicio javascript2</li></a>
+                        <a href="taller14.html" target="_blank"><li>Taller 14</li></a>
+                        <a href="taller15.html" target="_blank"><li>Taller 15</li></a>
+                    </ol></p>
+                </div>
+            </div>
+         
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="95">
+                                95%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>JAVA</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="85">
+                                85%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>MYSQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>MONGODB</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>FIGMA</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Creado por Jessica Torres - 2023 </p>
+    </footer>
+</body>
+</html>

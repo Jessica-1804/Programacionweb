@@ -1,0 +1,142 @@
+:root{
+    /* CSS HEX */
+--rose-pompadour: #e27396ff;
+--amaranth-pink: #ea9ab2ff;
+--mimi-pink: #efcfe3ff;
+--beige: #eaf2d7ff;
+--light-blue: #b3dee2ff;
+--mindaro: #edf67dff;
+--persian-pink: #f896d8ff;
+--heliotrope: #ca7df9ff;
+--majorelle-blue: #724cf9ff;
+--ultra-violet: #564592ff;
+--periwinkle: #d8dcffff;
+--periwinkle-2: #aeadf0ff;
+--rosy-brown: #c38d94ff;
+--china-rose: #a76571ff;
+--ultra-violet: #565676ff;
+--bone: #ccc7b9ff;
+--nyanza: #eaf9d9ff;
+--pearl: #e2d4baff;
+--old-rose: #af7a6dff;
+--wine: #653239ff;
+--chinese-violet: #925e78ff;
+--lilac: #bd93bdff;
+--isabelline: #f2edebff;
+--bright-pink-crayola: #f05365ff;
+--magenta-dye: #d30c7bff;
+}
+body{
+    width: 1500px;
+    height: 1000vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:var(--);
+    background-color: var(--mimi-pink);
+    font-size: 16px;
+}
+h1{
+    font-size: 48px;
+    color: var(--magenta-dye);
+}
+table{
+    background-color: var(--amaranth-pink);
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    border-style:solid;
+    border-collapse:collapse;
+    
+}
+.caja{
+    width: 90px;
+    height: 80px;
+    margin: 15px;
+    text-align: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    border-radius:  0px 0px 45px 45px ;
+   
+}
+.caja:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: #b3dee2ff;
+    border-radius: 45px 45px 0px 0px;
+
+}
+section{
+    margin:15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.color1{
+    background-color: var(--heliotrope);
+
+}
+.color2{
+    background-color: var(--majorelle-blue);
+
+}
+.color3{
+    background-color: var(--ultra-violet);
+
+}
+.color4{
+    background-color: var(--heliotrope);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    background-color:#aeadf0ff;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+
+}
+.fila{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:90%;
+    gap:19px;
+    
+
+}
+.column{
+    width: 50%;
+    background-color: var(--bright-pink-crayola);
+}
+
+#revision:hover{
+    background-color:var(--wine) ;
+}
+
+.alerta:hover{
+    background-color:var(--wine);
+}
+
+
+th{
+    width: 100px;
+    text-align: right;
+    padding: 15px 10px 20px 10px;
+    border-style:solid;
+    background-color: var(--china-rose);
+
+
+}
+td{
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+   
+}
